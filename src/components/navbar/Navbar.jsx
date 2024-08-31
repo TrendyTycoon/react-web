@@ -1,4 +1,4 @@
-import React, { useState } from 'react';  // Corrected useState import
+import React, { useState } from 'react';
 
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import logo from '../../assets/logo.svg';
@@ -8,9 +8,9 @@ import './navbar.css';
 const Menu = () => (
 <>
 <p><a href="#home">Home</a></p>
-          <p><a href="#web">What is Web</a></p> {/* Corrected href from `#wweb` to `#web` */}
+          <p><a href="#web">What is Web</a></p>
           <p><a href="#possibility">Open AI</a></p>
-          <p><a href="#features">Case Studies</a></p> {/* Corrected `#featueres` to `#features` */}
+          <p><a href="#features">Case Studies</a></p>
           <p><a href="#blog">Library</a></p>
 </>
 )
